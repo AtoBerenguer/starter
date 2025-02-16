@@ -1,16 +1,20 @@
 <template>
   <h1>Vue Js</h1>
-  <car></car>
+  <CarOptions/> 
+  <hr/>
+  <CarComposition></CarComposition>
   <div>
 
   </div>
 </template>
 
 <script>
-import car from './components/car.vue'
+import CarComposition from './components/CarComposition.vue'
+import CarOptions from './components/CarOptions.vue'
   export default {
     components: {
-      car
+      CarComposition,
+      CarOptions
     }
   }
 </script>
